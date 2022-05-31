@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(images/pattern-background-desktop.svg); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: hsl(225, 100%, 94%);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+
+.card{
+	width: 25vw;
+	min-width: 350px;
+	background-color: white;
+	border-radius: 20px;
+	margin: auto;
+	display: flex;
+	justify-content: start;
+	box-shadow: 0px 30px 40px -20px rgba(0, 0, 0, 0.2);
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
+
+.hero{
+	width: 100%;
+	position: relative;
+	border-radius: 20px;
+}
+
+.hero img{
+	border-radius: 20px 20px 0px 0px;
+	width: 100%;
+}
+
+.container{
+	width: 80%;
+	margin: 10% auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container h1{
+	text-transform: capitalize;
+	margin-bottom: 5%;
+	font-weight: 1000;
+}
+
+.container p{
+	text-align: center;
+	color: grey;
+	width: 80%;
+	line-height: 150%;
+}
+
+.plan{
+	width: 100%;
+	display: flex;
+	border-radius: 10px;
+	background-color: hsl(225, 100%, 94%);
+	margin: 5% 0% 5% 0%;
+	padding: 5% 0%;
+	align-items: center;
+
+}
+.plan img{
+	filter: brightness(0.85);
+	margin: 0% 5%;
+	width: 33px;
+	height: 33px;
+}
+.plan div{
+	display: flex;
+	flex-direction: column;
+	font-size: .8em;
+	width: 100%;
+}
+.plan div p{
+	display: flex;
+}
+.plan div p:nth-child(1){
+	color: black;
+	font-weight: 700;
+}
+#change{
+	text-decoration: underline;
+	text-align: right;
+	margin: 0% 5%;
+	color: hsl(245, 75%, 52%);
+	font-weight: 900;
+}
+#change:hover{
+	color: hsl(245, 75%, 52%, 0.8);
+	cursor: pointer;
+}
+
+button{
+	width: 100%;
+	border: none;
+	background-color: hsl(245, 75%, 52%);
+	color: hsl(225, 100%, 98%);
+	border-radius: 10px;
+	padding: 5% 0%;
+	font-weight: 700;
+	box-shadow: 0px 15px 20px rgba(0, 0, 150, 0.3);
+	margin: 5% 0%;
+}
+button:hover{
+	background-color: hsl(245, 75%, 52%, 0.8);
+	cursor:  pointer;
+}
+
+#cancel{
+	background-color:white ;
+	color: grey;
+	box-shadow: none;
+	padding:0;
+	margin-top: 5%;
+}
+#cancel:hover{
+	color: black;
+}
